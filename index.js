@@ -15,7 +15,7 @@ var numberOfDrums = document.querySelectorAll(".drum").length;
 // for press on button by mouse
 for (var i = 0; i < numberOfDrums; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        var buttonPreesed = this.innerHTML;
+        var buttonPreesed = this.innerHTML; // <element onClick="alert(this.innerHTML);"> ... </element>s
         makeSound(buttonPreesed);
         addAnimation(buttonPreesed);
 
