@@ -144,6 +144,6 @@ var houseKeeper2 = new Workers("maya", 25, ["reciption", "hall"]);
 console.log(houseKeeper1);
 console.log(houseKeeper2);
 console.log(houseKeeper1.age);
-   console.log(houseKeeper1.clean());
+   //console.log(houseKeeper1.clean());
 
 
